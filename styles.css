@@ -1,2 +1,60 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. */body {
+  font-family: Arial, sans-serif;
+  background-color: #0b0c10;
+  color: #c5c6c7;
+  margin: 0;
+  padding: 0;
+}
+
+header, nav, section, aside, footer {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+header {
+  background-color: #1f2833;
+  text-align: center;
+  color: #66fcf1;
+}
+
+nav {
+  background-color: #45a29e;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  background-color: #1f2833;
+}
+
+aside {
+  background-color: #45a29e;
+  color: white;
+}
+
+footer {
+  background-color: #1f2833;
+  text-align: center;
+  color: #66fcf1;
+}
